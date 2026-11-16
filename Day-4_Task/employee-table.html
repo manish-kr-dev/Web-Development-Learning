@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Management Table</title>
+</head>
+
+<body>
+
+    <!-- Main Heading -->
+     <header>
+        <h1>-:<u>Employee Management System</u>:-</h1>
+
+        <p>
+            This webpage displays employee information,
+            including employee ID, name, department,
+            designation, and salary.
+        </p>
+        <hr>
+     </header>
+
+     <main>
+        <section>
+            <h2>Employee Details:-</h2>
+
+            <table border="1">
+
+                <!-- Table Caption -->
+                 <caption>
+                    <strong>Employee Information and Salary details</strong>
+                </caption>
+
+                 <!-- Table Header -->
+                  <thead>
+                    <tr>
+                        <th scope="col">Employee ID</th>
+                        <th scope="col">Employee Name</th>
+                        <th scope="col">Department</th>
+                        <th scope="col">Designation</th>
+                        <th scope="col">Salary (₹)</th>
+                    </tr>
+                  </thead>
+
+                  <!-- Table Body -->
+                   <tbody>
+                    <tr>
+                        <td>101</td>
+                        <td>Manish Kumar</td>
+                        <td rowspan="2">Development</td>
+                        <td>Java Developer</td>
+                        <td>40,000/-</td>
+                    </tr>
+
+                    <tr>
+                        <td>102</td>
+                        <td>Amit Kumar</td>
+                        <td>Frontend Developer</td>
+                        <td>35,000/-</td>
+                    </tr>
+
+                    <tr>
+                        <td>103</td>
+                        <td>Radha Rani</td>
+                        <td rowspan="2">Testing</td>
+                        <td>Software Tester</td>
+                        <td>30,000/-</td>
+                    </tr>
+
+                    <tr>
+                        <td>104</td>
+                        <td>Lalita Verma</td>
+                        <td>QA Engineer</td>
+                        <td>32,000/-</td>
+                    </tr>
+
+                    <tr>
+                        <td>105</td>
+                        <td>Mohit Sharma</td>
+                        <td>HR</td>
+                        <td>HR Executive</td>
+                        <td>28,000/-</td>
+                    </tr>
+
+                   </tbody>
+
+                   <!-- Table Footer -->
+                     <tfoot>
+                        <tr>
+                            <th colspan="4">Total Employee Salary</th>
+                            <td>1,65,000/-</td>
+                        </tr>
+                     </tfoot>
+
+            </table>
+
+        </section>
+
+        <hr>
+
+        <!-- Department Information -->
+         <section>
+            <h2>Department Information</h2>
+
+            <ul>
+                <li>Development
+                    <ul>
+                        <li>Java Developer</li>
+                        <li>Frontend Developer</li>
+                    </ul>
+                </li>
+
+                <li>Testing
+                    <ul>
+                        <li>Software Tester</li>
+                        <li>QA Engineer</li>
+                    </ul>
+                </li>
+
+                <li>HR
+                    <ul>
+                        <li>HR Executive</li>
+                    </ul>
+                </li>
+            </ul>
+
+         </section>
+
+     </main>
+    
+     <!-- Footer -->
+      <footer>
+        <hr>
+
+        <p>
+            &copy; 2026 Employee Management System.
+            All Rights Reserved.
+        </p>
+      </footer>
+
+</body>
+</html>
