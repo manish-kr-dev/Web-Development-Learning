@@ -48,6 +48,7 @@ main section {
 
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
     border-left: 5px solid #2563eb;
+    border-right: 5px solid #2543eb;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
