@@ -64,12 +64,12 @@ body {
 /* Navigation Links */
 .nav-links {
     display: flex;
-    gap: 2rem;
+    gap: 1.75rem;
     list-style: none;
 }
 
 .nav-links a {
-    color: white;
+    color: lightblue;
     text-decoration: none;
     font-size: 1rem;
     font-weight: 500;
@@ -193,9 +193,7 @@ body {
 }
 
 /* Other Sections */
-.about,
-.skills,
-.contact {
+.about, .skills, .contact {
     min-height: 40vh;
     padding: 5rem 8%;
     text-align: center;
@@ -214,16 +212,12 @@ body {
     background-color: #dbeafe;
 }
 
-.about h2,
-.skills h2,
-.contact h2 {
+.about h2, .skills h2, .contact h2 {
     font-size: 2rem;
     margin-bottom: 1rem;
 }
 
-.about p,
-.skills p,
-.contact p {
+.about p, .skills p, .contact p {
     max-width: 650px;
     margin: auto;
 }
