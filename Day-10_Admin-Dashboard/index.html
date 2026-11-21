@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div class="dashboard">
+
+        <!-- Sidebar -->
+         <aside class="sidebar">
+            <h2 class="logo">AdminPanel<span>.</span></h2>
+
+            <p class="menu-title">MENU</p>
+
+            <nav class="sidebar-nav">
+                <a href="#" class="active">Dashboard</a>
+                <a href="#employees">Employees</a>
+                <a href="#projects">Projects</a>
+                <a href="#reports">Reports</a>
+                <a href="#settings">Settings</a>
+            </nav>
+
+            <div class="sidebar-bottom">
+                <a href="#help">Help & Support</a>
+                <a href="#logout">Logout</a>
+            </div>
+         </aside>
+
+         <!-- Main Content -->
+          <main class="main-content">
+
+            <!-- Top Navbar -->
+             <header class="topbar">
+                <div>
+                    <h2>Dashboard</h2>
+                    <p>Welcome back, Admin!</p>
+                </div>
+
+                <div class="profile">
+                    <span class="notification">🔔</span>
+                    <div class="avatar">MK</div>
+                    <span>ManishKumar</span>
+                </div>
+             </header>
+
+             <!-- Dashboard Content -->
+              <section class="dashboard-content">
+
+                <h2 class="section-title">
+                    Overview
+                </h2>
+
+                <!-- Statistics Cards -->
+                 <div class="stats-grid">
+                    <article class="stat-card blue">
+                        <p>Total Employees</p>
+                        <h2>1,250</h2>
+                        <span>+12% this month</span>
+                    </article>
+
+                    <article class="stat-card green">
+                        <p>Total Projects</p>
+                        <h2>85</h2>
+                        <span>+8% this month</span>
+                    </article>
+
+                    <article class="stat-card orange">
+                        <p>Completed Tasks</p>
+                        <h2>320</h2>
+                        <span>+15% this month</span>
+                    </article>
+
+                    <article class="stat-card purple">
+                        <p>Pending Tasks</p>
+                        <h2>24</h2>
+                        <span>Needs attention</span>
+                    </article>
+
+                 </div>
+
+                 <!-- Projects and Activity -->
+                  <div class="content-grid">
+
+                    <!-- Recent Projects -->
+                     <section class="panel projects" id="projects">
+                        <div class="panel-header">
+                            <h2>Recent Projects</h2>
+                            <a href="#projects">View All</a>
+                        </div>
+
+                        <div class="table-container">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Projects</th>
+                                        <th>Team</th>
+                                        <th>Status</th>
+                                    </tr>
+                                </thead>
+
+                                <tbody>
+                                    <tr>
+                                        <td>Website Redesign</td>
+                                        <td>Devellopment</td>
+                                        <td>
+                                            <span class="status progress">
+                                                In Progress
+                                            </span>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Mobile Applications</td>
+                                        <td>Frontend</td>
+                                        <td>
+                                            <span class="status completed">
+                                                Completed
+                                            </span>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Admin Dashboard</td>
+                                        <td>Backend</td>
+                                        <td>
+                                            <span class="status pending">
+                                                Pending
+                                            </span>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Employee Portal</td>
+                                        <td>Full Stack</td>
+                                        <td>
+                                            <span class="status progress">
+                                                In Progress
+                                            </span>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+                        </div>
+
+                     </section>
+
+                     <!-- Recent Activity -->
+                      <section class="panel activity">
+                        <h2>Recent Activity</h2>
+
+                        <div class="activity-item">
+                            <span class="activity-dot green-dot"></span>
+                            <div>
+                                <h4>New employee added</h4>
+                                <p>Rahul joined Devellopment Team</p>
+                                <small>10 minutes ago</small>
+                            </div>
+                        </div>
+
+                        <div class="activity-item">
+                            <span class="activity-dot blue-dot"></span>
+                            <div>
+                                <h4>Project completed</h4>
+                                <p>Mobile application completed</p>
+                                <small>2 hours ago</small>
+                            </div>
+                        </div>
+
+                        <div class="activity-item">
+                            <span class="activity-dot orange-dot"></span>
+                            <div>
+                                <h4>New task assigned</h4>
+                                <p>Website redesign task assigned</p>
+                                <small>Yesterday</small>
+                            </div>
+                        </div>
+                      </section>
+
+                  </div>
+
+              </section>
+
+              <!-- Footer -->
+               <footer>
+                <p>
+                    © 2026 Admin Dashboard.
+                    All Rights Reserved.
+                </p>
+               </footer>
+
+          </main>
+          
+    </div>
+    
+</body>
+</html>
